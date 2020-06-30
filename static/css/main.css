@@ -1,0 +1,31 @@
+.navbar {
+  box-shadow: 2px 2px 5px #000000;
+  opacity: 0.9;
+}
+.navbar .nav-item .nav-link {
+  color: salmon;
+}
+.main-header {
+  background: url(../background.jpg);
+  background-size: cover;
+  min-height: 700px;
+}
+.background-overlay {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, .8) 0%,
+    rgba(253, 29, 29, .8) 50%,
+    rgba(252, 176, 69, .8) 100%
+    
+  );
+  position: absolute;
+  height: 100%;
+  width: 100%;
+    
+  left:0px;
+}
+.navbar{
+    font-size: 30px;
+
+}
